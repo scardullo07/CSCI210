@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                padding-top: 0 !important; /* Remove the default padding from the body element */
+            }
+        </style>
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-        <h1> This is the login page.</h1>
+    <body class= "remove-padding">
+        <div>
+            <div class="login-header">
+                <h1>Login to Your Account</h1>
+            </div>
+        </div>>
+        <form class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button class="login-button" type="submit">Login</button>
+            <button class="register-button" type="button">Register</button>
+        </form>
+        <div class="return-home">
+            <button class="home-button" type="button">Return to Homepage</button>
+        </div>
     </body>
 </html>
