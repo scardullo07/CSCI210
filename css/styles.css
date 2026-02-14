@@ -267,6 +267,11 @@ background-color: white;
 color: rgb(19, 16, 222);
 }
 
+.login-form a {
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+}
 .login-form {
     color: white;
     background-color: #e60000;
@@ -303,6 +308,8 @@ color: rgb(19, 16, 222);
 .register-button {
     background-color: white;
     color: #e60000;
+    display: block;
+    width: 100%;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -321,6 +328,11 @@ color: rgb(19, 16, 222);
     color: white;
     background-color: #e60000;
 }
+
+.return-home  a {
+    text-decoration: none;
+}
+    
 .home-button {
     background-color: white;
     color: #e60000;
